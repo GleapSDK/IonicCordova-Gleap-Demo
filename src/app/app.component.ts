@@ -23,6 +23,6 @@ export class AppComponent {
     console.log('Cordova is ready!');
     // You can now use Cordova APIs here
 
-    cordova.plugins.GleapPlugin.initialize("ogWhNhuiZcGWrva5nlDS8l7a78OfaLlV");
+    cordova.plugins.GleapPlugin.initialize("YOUR_API_KEY");
   }
 }
