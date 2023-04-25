@@ -1,0 +1,16 @@
+PODS:
+  - Gleap (10.0.3)
+
+DEPENDENCIES:
+  - Gleap (= 10.0.3)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Gleap
+
+SPEC CHECKSUMS:
+  Gleap: 5cd1b5b2a995b483f67caa750065a0b49b80b537
+
+PODFILE CHECKSUM: 9085e27fd7cdb8a2b57d1f3afe24587963c32218
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D4DB81D5A9E170CD2D998932A3CD85 /* GleapSession.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4AA2866B2C885798834B064D9E1216 /* GleapSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02C70048C3D4128EA9EB9ECA02B922C5 /* GleapNotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 097EEF0AA7AF85EAB56A576530CB22DD /* GleapNotificationHelper.m */; };
+		038B583857F97B5DC513A6A50A8560A3 /* GleapUIOverlayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BADBE4D99D1CEB75E3FC7FFA91CF2 /* GleapUIOverlayViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0705A909B2C2BF6EFCB3159F475ABA0A /* GleapUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C557284E629192CB00A4C4F9BDA1C9AD /* GleapUploadManager.m */; };
+		091B3830209293BDC5C5C1062E3E0A8B /* GleapFrameManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E563E5B5601632D09D4D3467ABC4A1B2 /* GleapFrameManagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0943219A4BB8271A6C63A2BA859C6125 /* GleapScreenCaptureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BB49E4A0E0FC5F1F5272BABC69EFDA30 /* GleapScreenCaptureHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6598355D9E7F7D302960B610F1A96B /* GleapEventLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 824A464F9330179B61196EA64384CB98 /* GleapEventLogHelper.m */; };
+		0A8C06326412C04B68CA98A33FCF4656 /* GleapHttpTrafficRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = C08258E3B828CAB56A7E3918BB93EBCF /* GleapHttpTrafficRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEDCB90F04D9C324626773E9D446EFB /* GleapPreFillHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B779149B865057A1094BD4BF684706DF /* GleapPreFillHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103CFB10CAA25180031A1367042B0A34 /* GleapTagHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E90BCBEDA70942B754040708628500 /* GleapTagHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111AD39C7C1AE511575A28DCD1A3F255 /* GleapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DA245E119724C40CAF69986CBBB1111E /* GleapAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DF9299C8624E47B7F8E73AB15C57202 /* GleapUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A3B701C378B5FDC4C6A018B83ECB9B /* GleapUploadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208E1F6B5163F51F4036B09CFEE40EB2 /* GleapCustomDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C935A44AF1D0729BE47A03B326950C89 /* GleapCustomDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2965AB31D87AEA25456F498D3D575281 /* GleapScreenshotListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED1E658B4E887ADFB466A5BC30B6E3 /* GleapScreenshotListener.m */; };
+		29CF64FFB5B6CE5CCA77BCB5E0D5B921 /* Gleap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAD48677981C32ADBDC290EE3F0378 /* Gleap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0DFB8599D3E609F13C632D9D29F4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2AE84FAE47306B34BA1FBB73D363DE41 /* GleapCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A5504A217D598D14B4116FCA64CEECAA /* GleapCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D83B97CD4365F6D3079D065472E2868 /* GleapScreenshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 314C47A3F9068A5EC8B02E71AAFB7909 /* GleapScreenshotManager.m */; };
+		2D9624A2E2F8C54407FEED7F4FB7D7D8 /* GleapMetaDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D083416D7D9DF4EA8FBB461AFC64FFB7 /* GleapMetaDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E910938213E41911362517593E98829 /* GleapScreenshotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D6C210722EEAC5B7EE4132D79301EB /* GleapScreenshotManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3297F18B9D34C4BCF58299B5BD430919 /* UIWindow+GleapShakeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B746D76F2B13D2F7F0D05C8AF82AA /* UIWindow+GleapShakeRecognizer.m */; };
+		4224BD95E1023E75B42727F619FA93B9 /* GleapCustomDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B868287CDF43823ABA80E95848F286B /* GleapCustomDataHelper.m */; };
+		468E252684616B13F02657AD9A051EAD /* Pods-myApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EED816FCEBCC34D193D241747E05C09 /* Pods-myApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3BC13732B639FABE2B7CBC42C6A5C8 /* GleapConfigHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F705DBEC1F4C2252272C70656AC7A1 /* GleapConfigHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508B5D03AA9B0B1A17EBD2B30AEA69B1 /* GleapAttachmentHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F6276F8A6B80893A525EB66EA61F48 /* GleapAttachmentHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50EF117231AA568AAF427B8882722E08 /* GleapUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F6A3F0A491A91DF4B932F0DC652965 /* GleapUIHelper.m */; };
+		5239B9870F1266C63CE32EBD80E9985A /* Pods-myApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A51F8F0F555C493C351338686A2E6AD /* Pods-myApp-dummy.m */; };
+		5617FAB3A12505FBBBDC888739F8446C /* Gleap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A474DF1B751449E1404035DF7E047C41 /* Gleap-dummy.m */; };
+		5D75F149AAE98FED64C87599ABDB550D /* GleapConsoleLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D9095E96F335B1C863A51BA3400B5 /* GleapConsoleLogHelper.m */; };
+		5E06B3F79FA4FE65B39C1469544C25D5 /* GleapFrameManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F020953CF6220B561387859C11576C /* GleapFrameManagerViewController.m */; };
+		6C05B6B941CEBE891062DB723FCEF0C6 /* GleapTagHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22B2C337261D6A510EC8033021FEE2 /* GleapTagHelper.m */; };
+		72BE1FA8651D5A91D854601337F47F3B /* GleapConfigHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E60A3437FBF68241437BB88B60A66AF /* GleapConfigHelper.m */; };
+		72C2948514CEEE4CA3631D776662E286 /* GleapActivationMethodHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0AC4E318AB02AF1FFB9F601A186890 /* GleapActivationMethodHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AA12670E3533088E826058CD32C909 /* GleapAttachmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0960CAA5F7D2FA994D152D3702FA1F /* GleapAttachmentHelper.m */; };
+		7427D66E27699F32D4F3B4B791D808E4 /* GleapFeedbackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF1E34E9187340E47645D4AAC728EB0 /* GleapFeedbackButton.m */; };
+		74AFBAC9EB29D93D723EB090A40C5DC9 /* GleapSessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99253FFBA7AEC9D83F7679B1E8CFE9 /* GleapSessionHelper.m */; };
+		774FBD16E93F2966F5F1D63517E045D5 /* GleapUIOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4E3CF2882916E933ECE7CF90A86E2 /* GleapUIOverlayViewController.m */; };
+		7B65715233AC67E22C59B4BDA242F0F9 /* UIWindow+GleapTouchRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B558659DE65E18B918C8BDBDF6D2533 /* UIWindow+GleapTouchRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832C5F80C428C8E93C2C9EF6A11FAF7E /* UIWindow+GleapTouchRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2149A498F0C37D6C335996B3DA8F244B /* UIWindow+GleapTouchRecognizer.m */; };
+		83596AD1AAE3C5CE4A853B6D99C30641 /* GleapFeedbackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 889D761BD506BBDF9556884C9145CD52 /* GleapFeedbackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89874C1C4C90F395108E32BBFC769A41 /* GleapWidgetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAD01A76734DBCA702FE556F59D12A3 /* GleapWidgetManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA6AA64F6CA1584FF4D26DA65C99842 /* GleapReplayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC763080EB3E22E31F98ED50178CA7C /* GleapReplayHelper.m */; };
+		8F5E309F203EE3AFCD0DC42309D4FE8B /* GleapFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BF1F2822766A6B1FD1E838FBA90412 /* GleapFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9300F0F30A8D3AEEA831564AB879254B /* GleapUIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5347B76F2D4C8658ACCCE5D172BE2FA7 /* GleapUIWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CFBAA34C194CBF53F35C52AFFF4851 /* GleapNotificationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C54E8C7FE36ACAE832E0E1A01F2B5054 /* GleapNotificationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B0712A13EE0160A600798E73E3CEA94 /* GleapTranslationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FFACA8F2A73BB6DB3507682A130F62 /* GleapTranslationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC637A92205A76B50C3C6423317790E /* GleapWidgetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 649CDABECCFA7E2265215A827CEF0EAE /* GleapWidgetManager.m */; };
+		A1DA52D285584BFE056581BA59577B93 /* UIWindow+GleapShakeRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D05CA1CCEDEC68AB1DE2F4BFE3BDA7 /* UIWindow+GleapShakeRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A221BE75AD63C8CB3C65C0BFCB501BC3 /* GleapMetaDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EFE7AFD544B625AFF07F760EA0B504 /* GleapMetaDataHelper.m */; };
+		A3F1C173DFB591A0F406C8546ADE7715 /* GleapSessionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 82676BC5A35F3AFA9A8D59421208F801 /* GleapSessionHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E1F0EFFA0296F31C15AD476180FDD1 /* GleapUIWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B5B1141F6A4C377653B4DABA5D9FA2 /* GleapUIWindow.m */; };
+		A6E0F0BC6384C285DC78F5EB5BFC4A1E /* GleapScreenshotListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A159E6CD6C011B5CF4035526D9BFD5 /* GleapScreenshotListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7729C1AFFF165BCC86FE19A6A4856DE /* GleapUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBDB1902419577B8FE976B93763E262 /* GleapUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD951333B04131F81565135C9C2E304E /* GleapSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 514BB354EB864A5A317064314211B449 /* GleapSession.m */; };
+		ADB548988303E28E84D4279BB2A21F67 /* GleapTranslationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD337A7EDFE30C8F26384206DC94283 /* GleapTranslationHelper.m */; };
+		B1EA0C0723969717519DC16C36A84B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		B2B613FF729BDC460189F048ABFDD9E0 /* GleapExternalDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0510409026D11C7F0EBE6F700FD455 /* GleapExternalDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40B294A3594DC9F5FF72A63A990A15D /* GleapEventLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 361F0CD7868A4ABC66E93D4D47CC1A6F /* GleapEventLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0B4CBB2E7639E363FDD77A46F5A873D /* Gleap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB632406BF45335727298753909A61F /* Gleap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2A64BA6C415338267E6DE674469288 /* GleapFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4E993E5B53FB840A7BF2A080E9FD4 /* GleapFeedback.m */; };
+		D143B2D8C2820164FF1351FBC5E03D5F /* GleapUserProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE59D457DD48BF0E06FC62481139DC6 /* GleapUserProperty.m */; };
+		D60322B5DBB732CD045BDCB45C6563FB /* GleapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DBF630385E2DFAD34D4BBD543DEAAF /* GleapAction.m */; };
+		E03F7707F4F1C7AB4CEF88E80F4E2603 /* GleapActivationMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A9C27A5923619BA1305B13B8C685A7 /* GleapActivationMethodHelper.m */; };
+		E14100B777B1E515158337525E591134 /* GleapCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F7DDE8571EE71B27353ED8E6367288 /* GleapCore.m */; };
+		E25172B8323D9ACDD333B948D6545240 /* GleapPreFillHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A5B79E2C4995070E3A862223F6CEFD /* GleapPreFillHelper.m */; };
+		E3F0FDB391879FF1E50F8459A3D390EB /* GleapConsoleLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 152A956F8CB9A59A8A686DD2FE2EDFB1 /* GleapConsoleLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D76E5BE9C77668DB9D31230C34459E /* GleapTouchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AE032D59013AC57010439333D5E476 /* GleapTouchHelper.m */; };
+		EFD618A916EE6CAC712545DD315CF383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F38B5766075C983E5D58CE3000D0B3A4 /* GleapHttpTrafficRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 205935407A7875FDD74EE3779824B28B /* GleapHttpTrafficRecorder.m */; };
+		F5683F620EBBEC0991410743618963E7 /* GleapTouchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 19371A8ADEA6D036C641F4C00D9FA6B8 /* GleapTouchHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8EF5880453961F87C1EB02D00976387 /* GleapReplayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E08CDB73C7C210BA4E15C8DE7C91488 /* GleapReplayHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7A3EA37D0F5A3EC5BF8314FC4B85A6 /* GleapUserProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4508480790707D963C746FF568315F /* GleapUserProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0C2735E16071363CE02D91AA22EBBB /* GleapScreenCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7689E5756DD373F9BF853D04D69C056C /* GleapScreenCaptureHelper.m */; };
+		FEB633A7B49EEAEA3CB1548DE3F9E44F /* GleapExternalDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B87A0A5D77888F7F3128F321F593A /* GleapExternalDataHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496B7558AAD4836CCCC8B07FA0233C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCE8D94E237696B990B06DD890598EF;
+			remoteInfo = Gleap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F6A3F0A491A91DF4B932F0DC652965 /* GleapUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapUIHelper.m; path = Sources/ObjCSources/GleapUIHelper.m; sourceTree = "<group>"; };
+		097EEF0AA7AF85EAB56A576530CB22DD /* GleapNotificationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapNotificationHelper.m; path = Sources/ObjCSources/GleapNotificationHelper.m; sourceTree = "<group>"; };
+		12832C37486A3B89ACB65E60526CE455 /* Gleap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gleap.debug.xcconfig; sourceTree = "<group>"; };
+		152A956F8CB9A59A8A686DD2FE2EDFB1 /* GleapConsoleLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapConsoleLogHelper.h; path = Sources/ObjCSources/GleapConsoleLogHelper.h; sourceTree = "<group>"; };
+		19371A8ADEA6D036C641F4C00D9FA6B8 /* GleapTouchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapTouchHelper.h; path = Sources/ObjCSources/GleapTouchHelper.h; sourceTree = "<group>"; };
+		196DD7B27F33D68C03BDE751D11C2FC1 /* Pods-myApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19DF664BE8017420BC44C2CC92747224 /* Gleap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gleap-prefix.pch"; sourceTree = "<group>"; };
+		1A1B87A0A5D77888F7F3128F321F593A /* GleapExternalDataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapExternalDataHelper.m; path = Sources/ObjCSources/GleapExternalDataHelper.m; sourceTree = "<group>"; };
+		1B558659DE65E18B918C8BDBDF6D2533 /* UIWindow+GleapTouchRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+GleapTouchRecognizer.h"; path = "Sources/ObjCSources/UIWindow+GleapTouchRecognizer.h"; sourceTree = "<group>"; };
+		1E6D3E99A6CB7495A90A659AA24ED9CF /* Pods-myApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myApp.release.xcconfig"; sourceTree = "<group>"; };
+		205935407A7875FDD74EE3779824B28B /* GleapHttpTrafficRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapHttpTrafficRecorder.m; path = Sources/ObjCSources/GleapHttpTrafficRecorder.m; sourceTree = "<group>"; };
+		2149A498F0C37D6C335996B3DA8F244B /* UIWindow+GleapTouchRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+GleapTouchRecognizer.m"; path = "Sources/ObjCSources/UIWindow+GleapTouchRecognizer.m"; sourceTree = "<group>"; };
+		2A51F8F0F555C493C351338686A2E6AD /* Pods-myApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myApp-dummy.m"; sourceTree = "<group>"; };
+		2BA8FFDD2230788DB5DB8D36B8B333E4 /* Gleap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gleap.modulemap; sourceTree = "<group>"; };
+		2DE59D457DD48BF0E06FC62481139DC6 /* GleapUserProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapUserProperty.m; path = Sources/ObjCSources/GleapUserProperty.m; sourceTree = "<group>"; };
+		2E0960CAA5F7D2FA994D152D3702FA1F /* GleapAttachmentHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapAttachmentHelper.m; path = Sources/ObjCSources/GleapAttachmentHelper.m; sourceTree = "<group>"; };
+		2E761C88858496D7A4E9FE5E44C92DE7 /* Pods-myApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-myApp"; path = Pods_myApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		314C47A3F9068A5EC8B02E71AAFB7909 /* GleapScreenshotManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapScreenshotManager.m; path = Sources/ObjCSources/GleapScreenshotManager.m; sourceTree = "<group>"; };
+		33F6276F8A6B80893A525EB66EA61F48 /* GleapAttachmentHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapAttachmentHelper.h; path = Sources/ObjCSources/GleapAttachmentHelper.h; sourceTree = "<group>"; };
+		361F0CD7868A4ABC66E93D4D47CC1A6F /* GleapEventLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapEventLogHelper.h; path = Sources/ObjCSources/GleapEventLogHelper.h; sourceTree = "<group>"; };
+		37F7DDE8571EE71B27353ED8E6367288 /* GleapCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapCore.m; path = Sources/ObjCSources/GleapCore.m; sourceTree = "<group>"; };
+		39FFACA8F2A73BB6DB3507682A130F62 /* GleapTranslationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapTranslationHelper.h; path = Sources/ObjCSources/GleapTranslationHelper.h; sourceTree = "<group>"; };
+		3B0BBD2083C9C796060945073FA478CA /* Gleap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gleap-Info.plist"; sourceTree = "<group>"; };
+		3E60A3437FBF68241437BB88B60A66AF /* GleapConfigHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapConfigHelper.m; path = Sources/ObjCSources/GleapConfigHelper.m; sourceTree = "<group>"; };
+		3FD337A7EDFE30C8F26384206DC94283 /* GleapTranslationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapTranslationHelper.m; path = Sources/ObjCSources/GleapTranslationHelper.m; sourceTree = "<group>"; };
+		41F705DBEC1F4C2252272C70656AC7A1 /* GleapConfigHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapConfigHelper.h; path = Sources/ObjCSources/GleapConfigHelper.h; sourceTree = "<group>"; };
+		44BF1F2822766A6B1FD1E838FBA90412 /* GleapFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapFeedback.h; path = Sources/ObjCSources/GleapFeedback.h; sourceTree = "<group>"; };
+		4AC4E3CF2882916E933ECE7CF90A86E2 /* GleapUIOverlayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapUIOverlayViewController.m; path = Sources/ObjCSources/GleapUIOverlayViewController.m; sourceTree = "<group>"; };
+		4C1B746D76F2B13D2F7F0D05C8AF82AA /* UIWindow+GleapShakeRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+GleapShakeRecognizer.m"; path = "Sources/ObjCSources/UIWindow+GleapShakeRecognizer.m"; sourceTree = "<group>"; };
+		50EFE7AFD544B625AFF07F760EA0B504 /* GleapMetaDataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapMetaDataHelper.m; path = Sources/ObjCSources/GleapMetaDataHelper.m; sourceTree = "<group>"; };
+		514BB354EB864A5A317064314211B449 /* GleapSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapSession.m; path = Sources/ObjCSources/GleapSession.m; sourceTree = "<group>"; };
+		522BADBE4D99D1CEB75E3FC7FFA91CF2 /* GleapUIOverlayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapUIOverlayViewController.h; path = Sources/ObjCSources/GleapUIOverlayViewController.h; sourceTree = "<group>"; };
+		5347B76F2D4C8658ACCCE5D172BE2FA7 /* GleapUIWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapUIWindow.h; path = Sources/ObjCSources/GleapUIWindow.h; sourceTree = "<group>"; };
+		54DBF630385E2DFAD34D4BBD543DEAAF /* GleapAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapAction.m; path = Sources/ObjCSources/GleapAction.m; sourceTree = "<group>"; };
+		56EAD48677981C32ADBDC290EE3F0378 /* Gleap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gleap-umbrella.h"; sourceTree = "<group>"; };
+		5B868287CDF43823ABA80E95848F286B /* GleapCustomDataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapCustomDataHelper.m; path = Sources/ObjCSources/GleapCustomDataHelper.m; sourceTree = "<group>"; };
+		5CB632406BF45335727298753909A61F /* Gleap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gleap.h; path = Sources/ObjCSources/Gleap.h; sourceTree = "<group>"; };
+		5E08CDB73C7C210BA4E15C8DE7C91488 /* GleapReplayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapReplayHelper.h; path = Sources/ObjCSources/GleapReplayHelper.h; sourceTree = "<group>"; };
+		649CDABECCFA7E2265215A827CEF0EAE /* GleapWidgetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapWidgetManager.m; path = Sources/ObjCSources/GleapWidgetManager.m; sourceTree = "<group>"; };
+		64A3B701C378B5FDC4C6A018B83ECB9B /* GleapUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapUploadManager.h; path = Sources/ObjCSources/GleapUploadManager.h; sourceTree = "<group>"; };
+		73A9C27A5923619BA1305B13B8C685A7 /* GleapActivationMethodHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapActivationMethodHelper.m; path = Sources/ObjCSources/GleapActivationMethodHelper.m; sourceTree = "<group>"; };
+		7689E5756DD373F9BF853D04D69C056C /* GleapScreenCaptureHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapScreenCaptureHelper.m; path = Sources/ObjCSources/GleapScreenCaptureHelper.m; sourceTree = "<group>"; };
+		782D9095E96F335B1C863A51BA3400B5 /* GleapConsoleLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapConsoleLogHelper.m; path = Sources/ObjCSources/GleapConsoleLogHelper.m; sourceTree = "<group>"; };
+		7D0AC4E318AB02AF1FFB9F601A186890 /* GleapActivationMethodHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapActivationMethodHelper.h; path = Sources/ObjCSources/GleapActivationMethodHelper.h; sourceTree = "<group>"; };
+		824A464F9330179B61196EA64384CB98 /* GleapEventLogHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapEventLogHelper.m; path = Sources/ObjCSources/GleapEventLogHelper.m; sourceTree = "<group>"; };
+		82676BC5A35F3AFA9A8D59421208F801 /* GleapSessionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapSessionHelper.h; path = Sources/ObjCSources/GleapSessionHelper.h; sourceTree = "<group>"; };
+		889D761BD506BBDF9556884C9145CD52 /* GleapFeedbackButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapFeedbackButton.h; path = Sources/ObjCSources/GleapFeedbackButton.h; sourceTree = "<group>"; };
+		8AB4E993E5B53FB840A7BF2A080E9FD4 /* GleapFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapFeedback.m; path = Sources/ObjCSources/GleapFeedback.m; sourceTree = "<group>"; };
+		92D6C210722EEAC5B7EE4132D79301EB /* GleapScreenshotManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapScreenshotManager.h; path = Sources/ObjCSources/GleapScreenshotManager.h; sourceTree = "<group>"; };
+		93E90BCBEDA70942B754040708628500 /* GleapTagHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapTagHelper.h; path = Sources/ObjCSources/GleapTagHelper.h; sourceTree = "<group>"; };
+		94A3C1491EF89E812C5D47BDB626BFB3 /* Pods-myApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		94A5B79E2C4995070E3A862223F6CEFD /* GleapPreFillHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapPreFillHelper.m; path = Sources/ObjCSources/GleapPreFillHelper.m; sourceTree = "<group>"; };
+		9A1E865FFEFFCBA920DB61ACDB73AD8C /* Pods-myApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myApp-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EED816FCEBCC34D193D241747E05C09 /* Pods-myApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myApp-umbrella.h"; sourceTree = "<group>"; };
+		A0A159E6CD6C011B5CF4035526D9BFD5 /* GleapScreenshotListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapScreenshotListener.h; path = Sources/ObjCSources/GleapScreenshotListener.h; sourceTree = "<group>"; };
+		A474DF1B751449E1404035DF7E047C41 /* Gleap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gleap-dummy.m"; sourceTree = "<group>"; };
+		A4AE032D59013AC57010439333D5E476 /* GleapTouchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapTouchHelper.m; path = Sources/ObjCSources/GleapTouchHelper.m; sourceTree = "<group>"; };
+		A5504A217D598D14B4116FCA64CEECAA /* GleapCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapCore.h; path = Sources/ObjCSources/GleapCore.h; sourceTree = "<group>"; };
+		A7F020953CF6220B561387859C11576C /* GleapFrameManagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapFrameManagerViewController.m; path = Sources/ObjCSources/GleapFrameManagerViewController.m; sourceTree = "<group>"; };
+		B779149B865057A1094BD4BF684706DF /* GleapPreFillHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapPreFillHelper.h; path = Sources/ObjCSources/GleapPreFillHelper.h; sourceTree = "<group>"; };
+		B99F02360FBF62F041CE4EB05094F70B /* Pods-myApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BB49E4A0E0FC5F1F5272BABC69EFDA30 /* GleapScreenCaptureHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapScreenCaptureHelper.h; path = Sources/ObjCSources/GleapScreenCaptureHelper.h; sourceTree = "<group>"; };
+		C08258E3B828CAB56A7E3918BB93EBCF /* GleapHttpTrafficRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapHttpTrafficRecorder.h; path = Sources/ObjCSources/GleapHttpTrafficRecorder.h; sourceTree = "<group>"; };
+		C249A7BA9F5DA98051AA81A08A44CA13 /* Gleap */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gleap; path = Gleap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54E8C7FE36ACAE832E0E1A01F2B5054 /* GleapNotificationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapNotificationHelper.h; path = Sources/ObjCSources/GleapNotificationHelper.h; sourceTree = "<group>"; };
+		C557284E629192CB00A4C4F9BDA1C9AD /* GleapUploadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapUploadManager.m; path = Sources/ObjCSources/GleapUploadManager.m; sourceTree = "<group>"; };
+		C6D05CA1CCEDEC68AB1DE2F4BFE3BDA7 /* UIWindow+GleapShakeRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+GleapShakeRecognizer.h"; path = "Sources/ObjCSources/UIWindow+GleapShakeRecognizer.h"; sourceTree = "<group>"; };
+		C935A44AF1D0729BE47A03B326950C89 /* GleapCustomDataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapCustomDataHelper.h; path = Sources/ObjCSources/GleapCustomDataHelper.h; sourceTree = "<group>"; };
+		CAC763080EB3E22E31F98ED50178CA7C /* GleapReplayHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapReplayHelper.m; path = Sources/ObjCSources/GleapReplayHelper.m; sourceTree = "<group>"; };
+		CBED1E658B4E887ADFB466A5BC30B6E3 /* GleapScreenshotListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapScreenshotListener.m; path = Sources/ObjCSources/GleapScreenshotListener.m; sourceTree = "<group>"; };
+		CCAD01A76734DBCA702FE556F59D12A3 /* GleapWidgetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapWidgetManager.h; path = Sources/ObjCSources/GleapWidgetManager.h; sourceTree = "<group>"; };
+		CD4AA2866B2C885798834B064D9E1216 /* GleapSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapSession.h; path = Sources/ObjCSources/GleapSession.h; sourceTree = "<group>"; };
+		D083416D7D9DF4EA8FBB461AFC64FFB7 /* GleapMetaDataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapMetaDataHelper.h; path = Sources/ObjCSources/GleapMetaDataHelper.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4B5B1141F6A4C377653B4DABA5D9FA2 /* GleapUIWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapUIWindow.m; path = Sources/ObjCSources/GleapUIWindow.m; sourceTree = "<group>"; };
+		DA245E119724C40CAF69986CBBB1111E /* GleapAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapAction.h; path = Sources/ObjCSources/GleapAction.h; sourceTree = "<group>"; };
+		DC99253FFBA7AEC9D83F7679B1E8CFE9 /* GleapSessionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapSessionHelper.m; path = Sources/ObjCSources/GleapSessionHelper.m; sourceTree = "<group>"; };
+		DDBDB1902419577B8FE976B93763E262 /* GleapUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapUIHelper.h; path = Sources/ObjCSources/GleapUIHelper.h; sourceTree = "<group>"; };
+		DFFF9BEF8875C49CDFA8551024E90EBB /* Gleap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gleap.release.xcconfig; sourceTree = "<group>"; };
+		E563E5B5601632D09D4D3467ABC4A1B2 /* GleapFrameManagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapFrameManagerViewController.h; path = Sources/ObjCSources/GleapFrameManagerViewController.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECF9F05767B0AAEAA6CA9B3DF89BB18D /* Pods-myApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myApp-Info.plist"; sourceTree = "<group>"; };
+		ED6446653890EA44678CF120FD910566 /* Pods-myApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-myApp.modulemap"; sourceTree = "<group>"; };
+		EF22B2C337261D6A510EC8033021FEE2 /* GleapTagHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapTagHelper.m; path = Sources/ObjCSources/GleapTagHelper.m; sourceTree = "<group>"; };
+		EFF1E34E9187340E47645D4AAC728EB0 /* GleapFeedbackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GleapFeedbackButton.m; path = Sources/ObjCSources/GleapFeedbackButton.m; sourceTree = "<group>"; };
+		FA0510409026D11C7F0EBE6F700FD455 /* GleapExternalDataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapExternalDataHelper.h; path = Sources/ObjCSources/GleapExternalDataHelper.h; sourceTree = "<group>"; };
+		FF4508480790707D963C746FF568315F /* GleapUserProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GleapUserProperty.h; path = Sources/ObjCSources/GleapUserProperty.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D76079584D916F758B4E152B478B2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD618A916EE6CAC712545DD315CF383 /* Foundation.framework in Frameworks */,
+				B1EA0C0723969717519DC16C36A84B43 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6020F1914E886C3FF79A3E3562A169D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DFB8599D3E609F13C632D9D29F4F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B0D7073F324ED65C80336D7F8AE631 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEECED14A9654680A4A976A791E83A74 /* Gleap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		394B58CE9E81D1B2AA0ED8DC2B8A792F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C249A7BA9F5DA98051AA81A08A44CA13 /* Gleap */,
+				2E761C88858496D7A4E9FE5E44C92DE7 /* Pods-myApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D5C552FE66BB9474039A77EBE9679B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7782C6D3E81BA20EC4DBDF0C9526D8 /* Pods-myApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A7782C6D3E81BA20EC4DBDF0C9526D8 /* Pods-myApp */ = {
+			isa = PBXGroup;
+			children = (
+				ED6446653890EA44678CF120FD910566 /* Pods-myApp.modulemap */,
+				196DD7B27F33D68C03BDE751D11C2FC1 /* Pods-myApp-acknowledgements.markdown */,
+				94A3C1491EF89E812C5D47BDB626BFB3 /* Pods-myApp-acknowledgements.plist */,
+				2A51F8F0F555C493C351338686A2E6AD /* Pods-myApp-dummy.m */,
+				9A1E865FFEFFCBA920DB61ACDB73AD8C /* Pods-myApp-frameworks.sh */,
+				ECF9F05767B0AAEAA6CA9B3DF89BB18D /* Pods-myApp-Info.plist */,
+				9EED816FCEBCC34D193D241747E05C09 /* Pods-myApp-umbrella.h */,
+				B99F02360FBF62F041CE4EB05094F70B /* Pods-myApp.debug.xcconfig */,
+				1E6D3E99A6CB7495A90A659AA24ED9CF /* Pods-myApp.release.xcconfig */,
+			);
+			name = "Pods-myApp";
+			path = "Target Support Files/Pods-myApp";
+			sourceTree = "<group>";
+		};
+		BEECED14A9654680A4A976A791E83A74 /* Gleap */ = {
+			isa = PBXGroup;
+			children = (
+				5CB632406BF45335727298753909A61F /* Gleap.h */,
+				DA245E119724C40CAF69986CBBB1111E /* GleapAction.h */,
+				54DBF630385E2DFAD34D4BBD543DEAAF /* GleapAction.m */,
+				7D0AC4E318AB02AF1FFB9F601A186890 /* GleapActivationMethodHelper.h */,
+				73A9C27A5923619BA1305B13B8C685A7 /* GleapActivationMethodHelper.m */,
+				33F6276F8A6B80893A525EB66EA61F48 /* GleapAttachmentHelper.h */,
+				2E0960CAA5F7D2FA994D152D3702FA1F /* GleapAttachmentHelper.m */,
+				41F705DBEC1F4C2252272C70656AC7A1 /* GleapConfigHelper.h */,
+				3E60A3437FBF68241437BB88B60A66AF /* GleapConfigHelper.m */,
+				152A956F8CB9A59A8A686DD2FE2EDFB1 /* GleapConsoleLogHelper.h */,
+				782D9095E96F335B1C863A51BA3400B5 /* GleapConsoleLogHelper.m */,
+				A5504A217D598D14B4116FCA64CEECAA /* GleapCore.h */,
+				37F7DDE8571EE71B27353ED8E6367288 /* GleapCore.m */,
+				C935A44AF1D0729BE47A03B326950C89 /* GleapCustomDataHelper.h */,
+				5B868287CDF43823ABA80E95848F286B /* GleapCustomDataHelper.m */,
+				361F0CD7868A4ABC66E93D4D47CC1A6F /* GleapEventLogHelper.h */,
+				824A464F9330179B61196EA64384CB98 /* GleapEventLogHelper.m */,
+				FA0510409026D11C7F0EBE6F700FD455 /* GleapExternalDataHelper.h */,
+				1A1B87A0A5D77888F7F3128F321F593A /* GleapExternalDataHelper.m */,
+				44BF1F2822766A6B1FD1E838FBA90412 /* GleapFeedback.h */,
+				8AB4E993E5B53FB840A7BF2A080E9FD4 /* GleapFeedback.m */,
+				889D761BD506BBDF9556884C9145CD52 /* GleapFeedbackButton.h */,
+				EFF1E34E9187340E47645D4AAC728EB0 /* GleapFeedbackButton.m */,
+				E563E5B5601632D09D4D3467ABC4A1B2 /* GleapFrameManagerViewController.h */,
+				A7F020953CF6220B561387859C11576C /* GleapFrameManagerViewController.m */,
+				C08258E3B828CAB56A7E3918BB93EBCF /* GleapHttpTrafficRecorder.h */,
+				205935407A7875FDD74EE3779824B28B /* GleapHttpTrafficRecorder.m */,
+				D083416D7D9DF4EA8FBB461AFC64FFB7 /* GleapMetaDataHelper.h */,
+				50EFE7AFD544B625AFF07F760EA0B504 /* GleapMetaDataHelper.m */,
+				C54E8C7FE36ACAE832E0E1A01F2B5054 /* GleapNotificationHelper.h */,
+				097EEF0AA7AF85EAB56A576530CB22DD /* GleapNotificationHelper.m */,
+				B779149B865057A1094BD4BF684706DF /* GleapPreFillHelper.h */,
+				94A5B79E2C4995070E3A862223F6CEFD /* GleapPreFillHelper.m */,
+				5E08CDB73C7C210BA4E15C8DE7C91488 /* GleapReplayHelper.h */,
+				CAC763080EB3E22E31F98ED50178CA7C /* GleapReplayHelper.m */,
+				BB49E4A0E0FC5F1F5272BABC69EFDA30 /* GleapScreenCaptureHelper.h */,
+				7689E5756DD373F9BF853D04D69C056C /* GleapScreenCaptureHelper.m */,
+				A0A159E6CD6C011B5CF4035526D9BFD5 /* GleapScreenshotListener.h */,
+				CBED1E658B4E887ADFB466A5BC30B6E3 /* GleapScreenshotListener.m */,
+				92D6C210722EEAC5B7EE4132D79301EB /* GleapScreenshotManager.h */,
+				314C47A3F9068A5EC8B02E71AAFB7909 /* GleapScreenshotManager.m */,
+				CD4AA2866B2C885798834B064D9E1216 /* GleapSession.h */,
+				514BB354EB864A5A317064314211B449 /* GleapSession.m */,
+				82676BC5A35F3AFA9A8D59421208F801 /* GleapSessionHelper.h */,
+				DC99253FFBA7AEC9D83F7679B1E8CFE9 /* GleapSessionHelper.m */,
+				93E90BCBEDA70942B754040708628500 /* GleapTagHelper.h */,
+				EF22B2C337261D6A510EC8033021FEE2 /* GleapTagHelper.m */,
+				19371A8ADEA6D036C641F4C00D9FA6B8 /* GleapTouchHelper.h */,
+				A4AE032D59013AC57010439333D5E476 /* GleapTouchHelper.m */,
+				39FFACA8F2A73BB6DB3507682A130F62 /* GleapTranslationHelper.h */,
+				3FD337A7EDFE30C8F26384206DC94283 /* GleapTranslationHelper.m */,
+				DDBDB1902419577B8FE976B93763E262 /* GleapUIHelper.h */,
+				03F6A3F0A491A91DF4B932F0DC652965 /* GleapUIHelper.m */,
+				522BADBE4D99D1CEB75E3FC7FFA91CF2 /* GleapUIOverlayViewController.h */,
+				4AC4E3CF2882916E933ECE7CF90A86E2 /* GleapUIOverlayViewController.m */,
+				5347B76F2D4C8658ACCCE5D172BE2FA7 /* GleapUIWindow.h */,
+				D4B5B1141F6A4C377653B4DABA5D9FA2 /* GleapUIWindow.m */,
+				64A3B701C378B5FDC4C6A018B83ECB9B /* GleapUploadManager.h */,
+				C557284E629192CB00A4C4F9BDA1C9AD /* GleapUploadManager.m */,
+				FF4508480790707D963C746FF568315F /* GleapUserProperty.h */,
+				2DE59D457DD48BF0E06FC62481139DC6 /* GleapUserProperty.m */,
+				CCAD01A76734DBCA702FE556F59D12A3 /* GleapWidgetManager.h */,
+				649CDABECCFA7E2265215A827CEF0EAE /* GleapWidgetManager.m */,
+				C6D05CA1CCEDEC68AB1DE2F4BFE3BDA7 /* UIWindow+GleapShakeRecognizer.h */,
+				4C1B746D76F2B13D2F7F0D05C8AF82AA /* UIWindow+GleapShakeRecognizer.m */,
+				1B558659DE65E18B918C8BDBDF6D2533 /* UIWindow+GleapTouchRecognizer.h */,
+				2149A498F0C37D6C335996B3DA8F244B /* UIWindow+GleapTouchRecognizer.m */,
+				D50F6931789ADB4B7E5E8492A83E1148 /* Support Files */,
+			);
+			name = Gleap;
+			path = Gleap;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				15B0D7073F324ED65C80336D7F8AE631 /* Pods */,
+				394B58CE9E81D1B2AA0ED8DC2B8A792F /* Products */,
+				53D5C552FE66BB9474039A77EBE9679B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D50F6931789ADB4B7E5E8492A83E1148 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8FFDD2230788DB5DB8D36B8B333E4 /* Gleap.modulemap */,
+				A474DF1B751449E1404035DF7E047C41 /* Gleap-dummy.m */,
+				3B0BBD2083C9C796060945073FA478CA /* Gleap-Info.plist */,
+				19DF664BE8017420BC44C2CC92747224 /* Gleap-prefix.pch */,
+				56EAD48677981C32ADBDC290EE3F0378 /* Gleap-umbrella.h */,
+				12832C37486A3B89ACB65E60526CE455 /* Gleap.debug.xcconfig */,
+				DFFF9BEF8875C49CDFA8551024E90EBB /* Gleap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gleap";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E5127E9FFB4BE5B92940DE033319FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B4CBB2E7639E363FDD77A46F5A873D /* Gleap.h in Headers */,
+				29CF64FFB5B6CE5CCA77BCB5E0D5B921 /* Gleap-umbrella.h in Headers */,
+				111AD39C7C1AE511575A28DCD1A3F255 /* GleapAction.h in Headers */,
+				72C2948514CEEE4CA3631D776662E286 /* GleapActivationMethodHelper.h in Headers */,
+				508B5D03AA9B0B1A17EBD2B30AEA69B1 /* GleapAttachmentHelper.h in Headers */,
+				4F3BC13732B639FABE2B7CBC42C6A5C8 /* GleapConfigHelper.h in Headers */,
+				E3F0FDB391879FF1E50F8459A3D390EB /* GleapConsoleLogHelper.h in Headers */,
+				2AE84FAE47306B34BA1FBB73D363DE41 /* GleapCore.h in Headers */,
+				208E1F6B5163F51F4036B09CFEE40EB2 /* GleapCustomDataHelper.h in Headers */,
+				B40B294A3594DC9F5FF72A63A990A15D /* GleapEventLogHelper.h in Headers */,
+				B2B613FF729BDC460189F048ABFDD9E0 /* GleapExternalDataHelper.h in Headers */,
+				8F5E309F203EE3AFCD0DC42309D4FE8B /* GleapFeedback.h in Headers */,
+				83596AD1AAE3C5CE4A853B6D99C30641 /* GleapFeedbackButton.h in Headers */,
+				091B3830209293BDC5C5C1062E3E0A8B /* GleapFrameManagerViewController.h in Headers */,
+				0A8C06326412C04B68CA98A33FCF4656 /* GleapHttpTrafficRecorder.h in Headers */,
+				2D9624A2E2F8C54407FEED7F4FB7D7D8 /* GleapMetaDataHelper.h in Headers */,
+				98CFBAA34C194CBF53F35C52AFFF4851 /* GleapNotificationHelper.h in Headers */,
+				0FEDCB90F04D9C324626773E9D446EFB /* GleapPreFillHelper.h in Headers */,
+				F8EF5880453961F87C1EB02D00976387 /* GleapReplayHelper.h in Headers */,
+				0943219A4BB8271A6C63A2BA859C6125 /* GleapScreenCaptureHelper.h in Headers */,
+				A6E0F0BC6384C285DC78F5EB5BFC4A1E /* GleapScreenshotListener.h in Headers */,
+				2E910938213E41911362517593E98829 /* GleapScreenshotManager.h in Headers */,
+				01D4DB81D5A9E170CD2D998932A3CD85 /* GleapSession.h in Headers */,
+				A3F1C173DFB591A0F406C8546ADE7715 /* GleapSessionHelper.h in Headers */,
+				103CFB10CAA25180031A1367042B0A34 /* GleapTagHelper.h in Headers */,
+				F5683F620EBBEC0991410743618963E7 /* GleapTouchHelper.h in Headers */,
+				9B0712A13EE0160A600798E73E3CEA94 /* GleapTranslationHelper.h in Headers */,
+				A7729C1AFFF165BCC86FE19A6A4856DE /* GleapUIHelper.h in Headers */,
+				038B583857F97B5DC513A6A50A8560A3 /* GleapUIOverlayViewController.h in Headers */,
+				9300F0F30A8D3AEEA831564AB879254B /* GleapUIWindow.h in Headers */,
+				1DF9299C8624E47B7F8E73AB15C57202 /* GleapUploadManager.h in Headers */,
+				FA7A3EA37D0F5A3EC5BF8314FC4B85A6 /* GleapUserProperty.h in Headers */,
+				89874C1C4C90F395108E32BBFC769A41 /* GleapWidgetManager.h in Headers */,
+				A1DA52D285584BFE056581BA59577B93 /* UIWindow+GleapShakeRecognizer.h in Headers */,
+				7B65715233AC67E22C59B4BDA242F0F9 /* UIWindow+GleapTouchRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B446EE243488E1F690DBE51D25F699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E252684616B13F02657AD9A051EAD /* Pods-myApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CCE8D94E237696B990B06DD890598EF /* Gleap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652A9C28872E422421ECABCCCD698ABD /* Build configuration list for PBXNativeTarget "Gleap" */;
+			buildPhases = (
+				5E5127E9FFB4BE5B92940DE033319FCF /* Headers */,
+				8123C4C28550FA074E49ECE86C799516 /* Sources */,
+				2D76079584D916F758B4E152B478B2B5 /* Frameworks */,
+				9EAF26A6A7546B81C077C3021D83DC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gleap;
+			productName = Gleap;
+			productReference = C249A7BA9F5DA98051AA81A08A44CA13 /* Gleap */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA521AFC4B3D85BF684251EA41D8DCA7 /* Pods-myApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3981017DAADF5BEAA2DBDE962BA9A3FB /* Build configuration list for PBXNativeTarget "Pods-myApp" */;
+			buildPhases = (
+				C6B446EE243488E1F690DBE51D25F699 /* Headers */,
+				DFD5A6528730B361A0B2A0496078983A /* Sources */,
+				6020F1914E886C3FF79A3E3562A169D6 /* Frameworks */,
+				F451E3A9CCD4793B571E8AC54C739CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D72F6670018B67CEF01153AE777298 /* PBXTargetDependency */,
+			);
+			name = "Pods-myApp";
+			productName = Pods_myApp;
+			productReference = 2E761C88858496D7A4E9FE5E44C92DE7 /* Pods-myApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 394B58CE9E81D1B2AA0ED8DC2B8A792F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CCE8D94E237696B990B06DD890598EF /* Gleap */,
+				BA521AFC4B3D85BF684251EA41D8DCA7 /* Pods-myApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAF26A6A7546B81C077C3021D83DC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F451E3A9CCD4793B571E8AC54C739CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8123C4C28550FA074E49ECE86C799516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5617FAB3A12505FBBBDC888739F8446C /* Gleap-dummy.m in Sources */,
+				D60322B5DBB732CD045BDCB45C6563FB /* GleapAction.m in Sources */,
+				E03F7707F4F1C7AB4CEF88E80F4E2603 /* GleapActivationMethodHelper.m in Sources */,
+				73AA12670E3533088E826058CD32C909 /* GleapAttachmentHelper.m in Sources */,
+				72BE1FA8651D5A91D854601337F47F3B /* GleapConfigHelper.m in Sources */,
+				5D75F149AAE98FED64C87599ABDB550D /* GleapConsoleLogHelper.m in Sources */,
+				E14100B777B1E515158337525E591134 /* GleapCore.m in Sources */,
+				4224BD95E1023E75B42727F619FA93B9 /* GleapCustomDataHelper.m in Sources */,
+				0A6598355D9E7F7D302960B610F1A96B /* GleapEventLogHelper.m in Sources */,
+				FEB633A7B49EEAEA3CB1548DE3F9E44F /* GleapExternalDataHelper.m in Sources */,
+				CD2A64BA6C415338267E6DE674469288 /* GleapFeedback.m in Sources */,
+				7427D66E27699F32D4F3B4B791D808E4 /* GleapFeedbackButton.m in Sources */,
+				5E06B3F79FA4FE65B39C1469544C25D5 /* GleapFrameManagerViewController.m in Sources */,
+				F38B5766075C983E5D58CE3000D0B3A4 /* GleapHttpTrafficRecorder.m in Sources */,
+				A221BE75AD63C8CB3C65C0BFCB501BC3 /* GleapMetaDataHelper.m in Sources */,
+				02C70048C3D4128EA9EB9ECA02B922C5 /* GleapNotificationHelper.m in Sources */,
+				E25172B8323D9ACDD333B948D6545240 /* GleapPreFillHelper.m in Sources */,
+				8CA6AA64F6CA1584FF4D26DA65C99842 /* GleapReplayHelper.m in Sources */,
+				FC0C2735E16071363CE02D91AA22EBBB /* GleapScreenCaptureHelper.m in Sources */,
+				2965AB31D87AEA25456F498D3D575281 /* GleapScreenshotListener.m in Sources */,
+				2D83B97CD4365F6D3079D065472E2868 /* GleapScreenshotManager.m in Sources */,
+				AD951333B04131F81565135C9C2E304E /* GleapSession.m in Sources */,
+				74AFBAC9EB29D93D723EB090A40C5DC9 /* GleapSessionHelper.m in Sources */,
+				6C05B6B941CEBE891062DB723FCEF0C6 /* GleapTagHelper.m in Sources */,
+				E8D76E5BE9C77668DB9D31230C34459E /* GleapTouchHelper.m in Sources */,
+				ADB548988303E28E84D4279BB2A21F67 /* GleapTranslationHelper.m in Sources */,
+				50EF117231AA568AAF427B8882722E08 /* GleapUIHelper.m in Sources */,
+				774FBD16E93F2966F5F1D63517E045D5 /* GleapUIOverlayViewController.m in Sources */,
+				A4E1F0EFFA0296F31C15AD476180FDD1 /* GleapUIWindow.m in Sources */,
+				0705A909B2C2BF6EFCB3159F475ABA0A /* GleapUploadManager.m in Sources */,
+				D143B2D8C2820164FF1351FBC5E03D5F /* GleapUserProperty.m in Sources */,
+				9DC637A92205A76B50C3C6423317790E /* GleapWidgetManager.m in Sources */,
+				3297F18B9D34C4BCF58299B5BD430919 /* UIWindow+GleapShakeRecognizer.m in Sources */,
+				832C5F80C428C8E93C2C9EF6A11FAF7E /* UIWindow+GleapTouchRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD5A6528730B361A0B2A0496078983A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5239B9870F1266C63CE32EBD80E9985A /* Pods-myApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D72F6670018B67CEF01153AE777298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gleap;
+			target = 6CCE8D94E237696B990B06DD890598EF /* Gleap */;
+			targetProxy = 496B7558AAD4836CCCC8B07FA0233C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24967936E665DDE9F0F5FA17FF773222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99F02360FBF62F041CE4EB05094F70B /* Pods-myApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myApp/Pods-myApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myApp/Pods-myApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38AE5FF4A0361729999D7FCFD15502CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12832C37486A3B89ACB65E60526CE455 /* Gleap.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gleap/Gleap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gleap/Gleap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gleap/Gleap.modulemap";
+				PRODUCT_MODULE_NAME = Gleap;
+				PRODUCT_NAME = Gleap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9B6B501CBE68CD72F91A6A58FACB346B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFF9BEF8875C49CDFA8551024E90EBB /* Gleap.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gleap/Gleap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gleap/Gleap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gleap/Gleap.modulemap";
+				PRODUCT_MODULE_NAME = Gleap;
+				PRODUCT_NAME = Gleap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7DE1D02DC3F57E9B8EA8A4165BF2460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6D3E99A6CB7495A90A659AA24ED9CF /* Pods-myApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myApp/Pods-myApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myApp/Pods-myApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3981017DAADF5BEAA2DBDE962BA9A3FB /* Build configuration list for PBXNativeTarget "Pods-myApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24967936E665DDE9F0F5FA17FF773222 /* Debug */,
+				C7DE1D02DC3F57E9B8EA8A4165BF2460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652A9C28872E422421ECABCCCD698ABD /* Build configuration list for PBXNativeTarget "Gleap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE5FF4A0361729999D7FCFD15502CB /* Debug */,
+				9B6B501CBE68CD72F91A6A58FACB346B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
